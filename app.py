@@ -4,11 +4,11 @@ import streamlit as st
 from matplotlib import pyplot as plt
 import plotly.offline as pyo
 import plotly.express as px
-from pandasai.llm.google_palm import GooglePalm
-from pandasai import SmartDataframe
+# from pandasai.llm.google_palm import GooglePalm
+# from pandasai import SmartDataframe
 
-palm_api = "AIzaSyBzpAIo_NtUnsxa5bW1L-Aox9YiNtBhZGM"
-llm = GooglePalm(api_key=palm_api)
+# palm_api = "AIzaSyBzpAIo_NtUnsxa5bW1L-Aox9YiNtBhZGM"
+# llm = GooglePalm(api_key=palm_api)
 
 st.sidebar.image('https://upload.wikimedia.org/wikipedia/en/thumb/8/84/Indian_Premier_League_Official_Logo.svg/1200px-Indian_Premier_League_Official_Logo.svg.png')
 
