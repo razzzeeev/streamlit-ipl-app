@@ -17,10 +17,10 @@ st.write('---')
 user_menu = st.sidebar.radio('Select an option',
                              ('IPL Matches', 'Batsmen Statistics', 'Bowler Statistics', 'Players'))
 
-df_matches = SmartDataframe("matches.csv", config={"llm": llm})
-df_strike = SmartDataframe("most_runs_average_strikerate.csv", config={"llm": llm})
-df_players = SmartDataframe("Players.csv", config={"llm": llm})
-df_deliveries = SmartDataframe("deliveries.csv", config={"llm": llm})
+# df_matches = SmartDataframe("matches.csv", config={"llm": llm})
+# df_strike = SmartDataframe("most_runs_average_strikerate.csv", config={"llm": llm})
+# df_players = SmartDataframe("Players.csv", config={"llm": llm})
+# df_deliveries = SmartDataframe("deliveries.csv", config={"llm": llm})
 
 df = pd.read_csv("matches.csv")
 dfb = pd.read_csv("most_runs_average_strikerate.csv")
